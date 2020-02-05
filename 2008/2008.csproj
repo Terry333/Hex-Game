@@ -40,6 +40,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -60,9 +61,13 @@
     </ApplicationDefinition>
     <Compile Include="Classes\Building.cs" />
     <Compile Include="Classes\Instance.cs" />
+    <Compile Include="Classes\MapData.cs" />
+    <Compile Include="Classes\Noise2d.cs" />
     <Compile Include="Classes\Tile.cs" />
     <Compile Include="Enums\Buildings.cs" />
+    <Compile Include="Enums\CropTypes.cs" />
     <Compile Include="Enums\ItemTypes.cs" />
+    <Compile Include="Enums\Terrain.cs" />
     <Compile Include="Structs\Groceries.cs" />
     <Compile Include="UI\Hex.xaml.cs">
       <DependentUpon>Hex.xaml</DependentUpon>

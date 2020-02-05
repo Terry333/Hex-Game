@@ -25,7 +25,8 @@ namespace _2008
     /// </summary>
     public partial class MainWindow : Window
     {
-        private int X, Y;
+        private const int X = 25;
+        private const int Y = 32;
         private string Username;
         private string Password;
         private Hex[,] Hexes;

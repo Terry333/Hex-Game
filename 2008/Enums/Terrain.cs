@@ -8,9 +8,9 @@ namespace _2008.Enums
 {
     enum Terrain
     {
-        Hills,
-        Woods,
+        Urban,
         Plains,
-        Urban
+        Woods,
+        Forest
     }
 }

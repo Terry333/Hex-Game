@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SimplexNoise, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimplexNoise.2.0.0\lib\net45\SimplexNoise.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Numerics" />
@@ -62,7 +65,6 @@
     <Compile Include="Classes\Building.cs" />
     <Compile Include="Classes\Instance.cs" />
     <Compile Include="Classes\MapData.cs" />
-    <Compile Include="Classes\Noise2d.cs" />
     <Compile Include="Classes\Tile.cs" />
     <Compile Include="Enums\Buildings.cs" />
     <Compile Include="Enums\CropTypes.cs" />

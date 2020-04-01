@@ -8,9 +8,11 @@ namespace _2008.Enums
 {
     enum Terrain
     {
+        Scorched,
         Urban,
         Plains,
         Woods,
-        Forest
+        Forest,
+        Water
     }
 }
